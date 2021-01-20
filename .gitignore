@@ -1,0 +1,6 @@
+.idea/
+.svn/
+target
+*.iml
+default.properties
+node_modules

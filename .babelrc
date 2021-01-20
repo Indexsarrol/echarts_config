@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+        //true or css 这里必须是 css，否则样式不能加载 因为webpack 配置文件中是css的样式加载
+      }
+    ],
+    "react-hot-loader/babel",
+    "transform-decorators-legacy"
+  ]
+}
